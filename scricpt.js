@@ -7,7 +7,9 @@ arr.forEach(button => {
     button.addEventListener('click',(e) =>{
         if(e.target.innerHTML == '='){
             string=eval(string);
-            input.value=string
+            input.value=string;
+            string='';
+            str='';
         }
         else if(e.target.innerHTML == '%'){
             string=eval(string)*100

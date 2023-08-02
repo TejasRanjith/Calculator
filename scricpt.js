@@ -8,7 +8,6 @@ arr.forEach(button => {
         if(e.target.innerHTML == '='){
             string=eval(string);
             input.value=string;
-            string='';
             str='';
         }
         else if(e.target.innerHTML == '%'){

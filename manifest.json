@@ -6,7 +6,7 @@
   "display": "standalone",
   "orientation": "",
   "scope": "/",
-  "start_url": "Calculator/index.html",
+  "start_url": "https://abhiram-vakil.github.io/Calculator/",
   "icons": [
     {
       "src": "images/icons/icon-72x72.png",
